@@ -9,9 +9,6 @@ gender varchar(10),
 birth_date date,
 PRIMARY KEY (employee_id));
 
-select * 
-from employee_demographics;
-
 INSERT INTO employee_demographics (employee_id, fname, lname, age, gender, birth_date) VALUES (1, 'Leslie', 'Knope', 45, 'Female', '1979-09-25');
 INSERT INTO employee_demographics (employee_id, fname, lname, age, gender, birth_date) VALUES (10, 'Andy', 'Dwyer', 35, 'Male', '1989-03-25');
 INSERT INTO employee_demographics (employee_id, fname, lname, age, gender, birth_date) VALUES (11, 'Mark', 'Brendanawicz', 40, 'Male', '1983-06-14');
@@ -22,6 +19,9 @@ INSERT INTO employee_demographics (employee_id, fname, lname, age, gender, birth
 INSERT INTO employee_demographics (employee_id, fname, lname, age, gender, birth_date) VALUES (7, 'Ann', 'Perkins', 36, 'Female', '1988-12-01');
 INSERT INTO employee_demographics (employee_id, fname, lname, age, gender, birth_date) VALUES (8, 'Chris', 'Trager', 44, 'Male', '1980-11-11');
 INSERT INTO employee_demographics (employee_id, fname, lname, age, gender, birth_date) VALUES (9, 'Ben', 'Wyatt', 39, 'Male', '1985-07-26');
+
+select * 
+from employee_demographics;
 
 CREATE TABLE employee_salary(
   employee_id int NOT NULL,
@@ -42,6 +42,10 @@ INSERT INTO employee_salary (employee_id, fname, lname, occupation, salary, dept
 INSERT INTO employee_salary (employee_id, fname, lname, occupation, salary, dept_id) VALUES (9, 'Ben', 'Wyatt', 'Satet Auditor', 70000, 6);
 INSERT INTO employee_salary (employee_id, fname, lname, occupation, salary, dept_id) VALUES (11, 'Mark', 'Brendanawicz', 'City Planner', 57000, 3);
 INSERT INTO employee_salary (employee_id, fname, lname, occupation, salary, dept_id) VALUES (12, 'Craig', 'Middlebrooks', 'Parks Director', 65000, 1);
+
+
+select * 
+from employee_salary;
 
 
 
