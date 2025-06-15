@@ -54,5 +54,5 @@ This dataset is used in the following files:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/sql-practice-course.git
+   git clone https://github.com/Praveena-Universe/SQL_Tutorial.git
    cd sql-practice-course
