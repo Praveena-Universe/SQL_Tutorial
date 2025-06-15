@@ -1,4 +1,4 @@
-# 🧠 SQL Practice — Beginner to Advanced
+# SQL Practice — Beginner to Advanced
 
 This repository is a personal project where I practiced SQL concepts by writing scripts alongside the YouTube course **"Learn SQL - Beginner to Advanced in Under 4 Hours"** by **Alex The Analyst**.
 
